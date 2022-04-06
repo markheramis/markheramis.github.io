@@ -29,4 +29,27 @@
         })
     })
 
+})();
+
+(function () {
+    $(document).ready(() => {
+        var profileTitle = document.getElementById('profile-title');
+        var typewriter = new Typewriter(profileTitle, {
+            loop: true,
+            cursor: "_"
+        });
+
+        typewriter.typeString('BACKEND DEVELOPER')
+            .pauseFor(2500)
+            .deleteAll()
+            .typeString('SOFTWARE ARCHITECH')
+            .pauseFor(2500)
+            .deleteAll()
+            .typeString('SYSTEM ADMINISTRATOR')
+            .pauseFor(2500)
+            .deleteAll()
+            .typeString('TECH INNOVATOR')
+            .pauseFor(2500)
+            .start();
+    })
 })()
