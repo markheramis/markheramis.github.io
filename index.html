@@ -14,69 +14,64 @@
 </head>
 
 <body>
-    <div class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary">
-        <div class="container">
-            <a href="#" class="navbar-brand">MARK HERAMIS</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about-me">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#experiences"
-                            id="themes">Experiences
-                            <span class="caret"></span></a>
-                        <div class="dropdown-menu" aria-labelledby="themes">
-                            <a class="dropdown-item" href="#">Default</a>
-                            <div class="dropdown-divider"></div>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Projects
-                            <span class="caret"></span></a>
-                        <div class="dropdown-menu" aria-labelledby="themes">
-                            <a class="dropdown-item" href="#">Default</a>
-                            <div class="dropdown-divider"></div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">MARK HERAMIS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#experiences"
+                        id="themes">Experiences
+                        <span class="caret"></span></a>
+                    <div class="dropdown-menu" aria-labelledby="themes">
+                        <a class="dropdown-item" href="#">Default</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Projects
+                        <span class="caret"></span></a>
+                    <div class="dropdown-menu" aria-labelledby="themes">
+                        <a class="dropdown-item" href="#">Default</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
         </div>
-    </div>
+    </nav>
     <section class="container py-3" id="home">
-        <div class="rounded-3">
-            <div class="page-header">
-                <h1 id="containers" class="text-center">
-                    I AM MARK HERAMIS
-                </h1>
-
-                <h4 id="profile-title" class="text-center my-2">BACKEND DEVELOPER</h4>
-            </div>
-            <div class="bs-component">
-                <div class="jumbotron">
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta justo
-                        vitae massa commodo gravida. Praesent
-                        congue libero ultrices tortor scelerisque, a condimentum nisi iaculis. Suspendisse magna
-                        magna,
-                        efficitur sed cursus
-                        vel, fermentum id urna. Vestibulum eget tempor elit. Integer vitae ligula mattis, eleifend
-                        sapien
-                        pretium, luctus lorem.</p>
-                </div>
+        <div class="page-header">
+            <h1 id="containers" class="text-center">
+                I AM MARK HERAMIS
+            </h1>
+            <h4 id="profile-title" class="text-center my-2"></h4>
+        </div>
+        <div class="bs-component">
+            <div class="jumbotron">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta justo
+                    vitae massa commodo gravida. Praesent
+                    congue libero ultrices tortor scelerisque, a condimentum nisi iaculis. Suspendisse magna
+                    magna,
+                    efficitur sed cursus
+                    vel, fermentum id urna. Vestibulum eget tempor elit. Integer vitae ligula mattis, eleifend
+                    sapien
+                    pretium, luctus lorem.</p>
             </div>
         </div>
     </section>
@@ -123,59 +118,114 @@
     <section class="container pb-4" id="services">
         <h1 class="mb-5 text-center">SERVICES</h1>
         <div class="row align-items-md-stretch">
-            <div class="col-md-4">
-                <div class="card">
-                    <h2 class="card-header">SOFTWARE DEVELOPMENT</h2>
+            <div class="col-md-6">
+                <div class="card mb-2">
+                    <h2 class="card-header">BACK-END SOFTWARE DEVELOPMENT</h2>
                     <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                            porta
                             justo vitae massa
                             commodo gravida.</p>
-
-                        <button id="serviceModalBtn1" type="button" class="btn btn-primary btn-lg btn-block">LEARN
-                            MORE</button>
-                        <div class="modal fade" id="service_modal_1" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
+                        <button id="serviceModalBtn1" type="button" class="btn btn-primary btn-lg btn-block">
+                            LEARN MORE
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal" id="service_modal_1" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
+                                        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
                                     </div>
                                     <div class="modal-body">
                                         ...
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Close</button>
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-2">
+                    <h2 class="card-header">SERVER ADMINISTRATION</h2>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                            porta
+                            justo vitae massa
+                            commodo gravida.</p>
+                        <button id="serviceModalBtn2" type="button" class="btn btn-primary btn-lg btn-block">
+                            LEARN MORE
+                        </button>
+                        <!-- Modal -->
+
+
+                        <div class="modal" id="service_modal_2" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
                                         <button type="button" class="btn btn-primary">Save changes</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <h2 class="card-header">SERVER ADMINISTRATION</h2>
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta
-                            justo vitae massa
-                            commodo gravida.</p>
-                        <button type="button" class="btn btn-primary btn-lg btn-block">LEARN MORE</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
+            <div class="col-md-6">
+                <div class="card mb-2">
                     <h2 class="card-header">DATABASE ADMINISTRATION</h2>
                     <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                            porta
                             justo vitae massa
                             commodo gravida.</p>
-                        <button type="button" class="btn btn-primary btn-lg btn-block">LEARN MORE</button>
+                        <button id="serviceModalBtn3" type="button" class="btn btn-primary btn-lg btn-block">
+                            LEARN MORE
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal" id="service_modal_3" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
